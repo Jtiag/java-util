@@ -1,4 +1,3 @@
-package com.gome.wa.util;
 
 import com.gome.wa.domain.User;
 import com.gome.wa.domain.UserBranchInfo;

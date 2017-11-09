@@ -1,4 +1,3 @@
-package com.gome.wa.util;
 
 import org.apache.commons.lang.StringUtils;
 

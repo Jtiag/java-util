@@ -1,4 +1,3 @@
-package com.gome.wa.util;
 
 import java.security.MessageDigest;
 

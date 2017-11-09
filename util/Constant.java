@@ -1,4 +1,3 @@
-package com.gome.wa.util;
 
 public interface Constant {
 	public String SHOP_USER_ID="SHOP_USER_ID";

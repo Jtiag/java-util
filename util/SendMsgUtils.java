@@ -1,4 +1,3 @@
-package com.gome.wa.util;
 
 import java.io.*;
 import java.net.HttpURLConnection;

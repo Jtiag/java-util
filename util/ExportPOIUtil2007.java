@@ -1,4 +1,3 @@
-package com.gome.wa.util;
 
 import java.io.IOException;
 import java.io.OutputStream;

@@ -1,4 +1,3 @@
-package com.gome.wa.util;
 
 /**
  * Created by xubo5 on 2017/7/14.

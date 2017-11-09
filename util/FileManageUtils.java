@@ -1,4 +1,3 @@
-package com.gome.wa.util;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;

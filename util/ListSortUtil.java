@@ -7,7 +7,6 @@
  * @version V1.0
  * 
  */
-package com.gome.wa.util;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

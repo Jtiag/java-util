@@ -1,4 +1,3 @@
-package com.gome.wa.util;
 
 import net.sf.json.JSONObject;
 

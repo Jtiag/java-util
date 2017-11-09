@@ -1,4 +1,4 @@
-package com.gome.wa.util;
+
 import java.math.BigDecimal;
 
 /**

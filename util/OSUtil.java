@@ -1,4 +1,3 @@
-package com.gome.wa.util;
 
 public class OSUtil {
 	public static boolean isWindows(){

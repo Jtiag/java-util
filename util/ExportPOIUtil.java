@@ -1,11 +1,4 @@
-/** 
- * 项目名称:网站分析
- * 文件名：ExportPOIUtil.java
- * author:Administrator
- * 版本信息： 
- * 日期：2015年11月19日
- * Copyright 颢云科技 2015 版权所有 
- */
+
 package com.gome.wa.util;
 
 import java.io.IOException;

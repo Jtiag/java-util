@@ -1,4 +1,3 @@
-package com.gome.wa.util;
 
 import com.gome.wa.exception.ForeignKeyConstraintViolationException;
 import com.gome.wa.exception.FrameworkExceptions;

@@ -1,4 +1,3 @@
-package com.gome.wa.util;
 
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.hash.Hashing.md5;

@@ -1,4 +1,3 @@
-package com.gome.wa.util;
 
 import com.gome.wa.dao.jdbc.sql.dynamic.DynamicSql;
 import com.gome.wa.dao.jdbc.sql.stat.StaticSql;

@@ -1,4 +1,3 @@
-package com.gome.wa.util;
 
 import io.druid.jackson.DefaultObjectMapper;
 import io.druid.query.Druids;

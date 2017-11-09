@@ -1,4 +1,3 @@
-package com.gome.wa.util;
 
 import java.util.Iterator;
 import java.util.Map;
