@@ -1,12 +1,3 @@
-/**
- * @Title: ListSortUtil.java 
- * @Package com.gome.hive
- * @Description: TODO(用一句话描述该文件做什么) 
- * @author WANGSHICHAO
- * @date 2016年5月24日 下午2:33:44 
- * @version V1.0
- * 
- */
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -15,20 +6,8 @@ import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 
-/**
- * 
- * ListSortUtil
- * @Title: ListSortUtil.java 
- * @Package com.gome.hive
- * @Description: TODO(用一句话描述该文件做什么) 
- * @author wangsc
- * @date 2016年5月24日 下午2:33:44 
- * @version V1.0
- * 
- */
-public class ListSortUtil<T> {  
-	
-	
+
+public class ListSortUtil<T> {
     /** 
      * @param targetList 目标排序List 
      * @param sortField 排序字段(实体类属性名) 
@@ -152,8 +131,9 @@ public class ListSortUtil<T> {
                     } 
                     else {  
                         //调用对象的compareTo()方法比较大小  
-                        Method method = field.getType().getDeclaredMethod("compareTo", new Class[]{field.getType()});  
-                        method.setAccessible(true); //设置可访问权限  
+                        Method method = field.getType().getDeclaredMethod("compareTo", new Class[]{field.getType()});
+                        //设置可访问权限
+                        method.setAccessible(true);
                         int result  = (Integer)method.invoke(v1, new Object[]{v2});  
                         return ASC_order ? result : result*(-1);  
                     }  
@@ -162,9 +142,9 @@ public class ListSortUtil<T> {
                     String err = e.getLocalizedMessage();  
                     System.out.println(err);  
                     e.printStackTrace();  
-                }  
-      
-                return 0; //未知类型，无法比较大小  
+                }
+                //未知类型，无法比较大小
+                return 0;
             }  
         });
     }
