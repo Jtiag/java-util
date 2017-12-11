@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
- * 
+ *
  */
 public class HbaseUtil {
     private static Configuration configuration;
